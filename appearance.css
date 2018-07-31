@@ -135,7 +135,25 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #717171;
 }
-
+#floatrightjada {
+  float: right;
+}
+#floatleftjada {
+  float: left;
+  width: 550px;
+  padding: 15px;
+  font-size: 30px
+}
+#nasirfloatleft {
+  float:left;
+  width:550px;
+  font-size: 30px;
+  padding: 15px
+}
+#nasirfloatright {
+  float: right;
+  width:600px;
+}
 
 
  
@@ -162,5 +180,18 @@ img {vertical-align: middle;}
   animation-name: appear;
   animation-duration: 5s;
   width: 100%;
+}
+#column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 20%;
+}
+
+#row::after {
+  content: "";
+  clear: both;
+  display: table;
+  height: 20%;
 }
 
