@@ -208,7 +208,10 @@ img {vertical-align: middle;}
   height: 20%;
 }
 #biofont {
-  font-size: 20px
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 5px;
 }
+
 
 
